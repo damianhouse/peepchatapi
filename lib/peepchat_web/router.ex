@@ -7,6 +7,6 @@ defmodule PeepchatWeb.Router do
 
   scope "/api", PeepchatWeb do
     pipe_through(:api)
-    resources("session", SessionController, only: [:index])
+    resources("/session", SessionController, only: [:index])
   end
 end
