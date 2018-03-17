@@ -2,7 +2,7 @@ language: elixir
 elixir:
 - 1.6.3
 otp_release:
-- 20
+- 19.3
 sudo: false
 addons:
   postgresql: '9.4'
